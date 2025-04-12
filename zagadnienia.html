@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zagadnienia</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: 0 auto;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .header img {
+            width: 120px;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            color: #333;
+        }
+
+        .nav-links {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 30px 0;
+        }
+
+        .nav-links a {
+            padding: 12px 20px;
+            background-color: #3498db;
+            color: white;
+            border-radius: 5px;
+            margin: 5px;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        .nav-links a:hover {
+            background-color: #2980b9;
+        }
+
+        .content {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .content img {
+            width: 100%;
+            max-width: 600px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        .gallery {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .gallery-item {
+            width: 100%;
+            max-width: 400px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .gallery img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .gallery p {
+            font-size: 1em;
+            color: #555;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+     
+        <h1>Zagadnienia</h1>
+    </div>
+
+    <div class="nav-links">
+        <a href="index.html">Strona główna</a>
+        <a href="trojwymiarowa.html">Grafika Trójwymiarowa</a>
+        <a href="rastowa.html">Grafika Rastowa</a>
+        <a href="wektorowa.html">Wektorowa</a>
+		<a href="zagadnienia.html">Zagadnienia</a>
+    </div>
+
+
+    <div class="content">
+        <div class="content-text">
+            <p>Jakie znaczenie mają podstawowe pojęcia związane z obrazem cyfrowym, takie jak: rozdzielczość, paleta kolorów, głębia kolorów, proporcje ekranu i kompresja obrazu? </p>
+        </div>
+        
+    </div>
+
+    <div class="gallery">
+        <div class="gallery-item">
+            <img src="obraz1z.jpg">
+            <p>📏 Rozdzielczość
+			<br><br>
+1. To liczba pikseli (punktów) tworzących obraz na ekranie lub w pliku graficznym.
+<br><br>
+2. Im wyższa rozdzielczość, tym więcej szczegółów zawiera obraz.
+
+
+
+</p>
+        </div>
+        <div class="gallery-item">
+            <img src="rgb.jpg">
+            <p>🎨 Paleta kolorów
+			<br><br>
+			1. To zestaw wszystkich kolorów, jakie mogą być użyte w danym obrazie.
+			<br><br>
+			2.Pełna paleta RGB – do 16,7 miliona kolorów (8 bitów na każdy kanał: czerwony, zielony, niebieski).
+			
+			
+			</p>
+        </div>
+        <div class="gallery-item">
+            <img src="kolo.jpg">
+            <p>🌈 Głębia kolorów
+			<br><br>
+			1.To liczba bitów używana do zapisania koloru jednego piksela.
+Im więcej bitów, tym więcej kolorów można zapisać.
+
+		
+			
+			
+			
+			</p>
+        </div>
+        <div class="gallery-item">
+            <img src="komp.jpg">
+            <p>📺 Proporcje ekranu:
+			<br><br>
+			4:3-Tradycyjny ekran (stare monitory, TV)
+			<br>
+			16:9-	Współczesne monitory i telewizory HD
+			<br>
+			16:10-Laptopy i komputery biznesowe
+			
+			
+			
+			</p>
+        </div>
+    </div> 
+	<div class="gallery">
+        <div class="gallery-item">
+            <img src="122.jpg">
+            <p>📦 Kompresja obrazu
+			<BR><BR>
+			1.To proces zmniejszania rozmiaru pliku graficznego, by zajmował mniej miejsca.
+			<BR><BR>
+			2.Kompresja stratna – usuwa część danych, co może pogorszyć jakość (np. JPG).
+			<br><br>
+			3.Kompresja bezstratna – zmniejsza rozmiar bez utraty jakości (np. PNG, GIF).
+        </div>	
+
+</body>
+</html>
